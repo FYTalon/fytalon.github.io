@@ -259,10 +259,11 @@ PLATFORMS
   x64-mingw-ucrt
 
 DEPENDENCIES
-  github-pages
+  github-pages (~> 228)
   hawkins
   jekyll (= 3.9.3)
   jekyll-feed
+  jekyll-remote-theme
   jekyll-sitemap
   liquid (= 4.0.4)
   tzinfo-data
