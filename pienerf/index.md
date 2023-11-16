@@ -8,7 +8,7 @@ authors:
 affiliations:
     University of Utah, University of California, Los Angeles, Zhejiang University
 paper: 
-video: 
+video:  https://fytalon.github.io/pienerf/
 code: https://fytalon.github.io/pienerf/
 data: 
 arxiv: https://fytalon.github.io/pienerf/
@@ -29,22 +29,16 @@ We show that physics-based simulations can be seamlessly integrated with NeRF to
 
 ## Pipeline
 
-![](/static/image/pipeline.pdf)
+![](/pienerf/static/image/pipeline.png)
+
+
 
 *The input of PIE-NeRF is the same as other NeRF-based frameworks, which consists of a collection of images of a static scene. An adaptive Poisson disk sampling is followed to query the 3D geometry of the model, which are sparsified into $n$ Q-GMLS kernels. Integrator points are placed over the model, including centers of Q-GMLS kernels (i.e., kernel IPs). Discretization at kernels and numerical integration at IPs enable efficient synthesis of novel and physics-based elastodynamic motions. The quadratic warping scheme helps to better retrieve the color/texture of a deformed spatial position to render the final result.
 
-## Table: Comparison of Computable and Non-Computable Numbers
 
-| Computable Numbers | Non-Computable Numbers |
-|-------------------|-----------------------|
-| Rational numbers, e.g., 1/2, 3/4 | Transcendental numbers, e.g., π, e |
-| Algebraic numbers, e.g., √2, ∛3 | Non-algebraic numbers, e.g., √2 + √3 |
-| Numbers with finite decimal representations | Numbers with infinite, non-repeating decimal representations |
-
-He used the concept of a universal Turing machine to prove that the set of computable functions is recursively enumerable, meaning it can be listed by an algorithm.
 
 ## Significance
-Turing's paper laid the foundation for the theory of computation and had a profound impact on the development of computer science. The Turing machine became a fundamental concept in theoretical computer science, serving as a theoretical model for studying the limits and capabilities of computation. Turing's work also influenced the development of programming languages, algorithms, and the design of modern computers.
+
 
 ## Citation
 ```

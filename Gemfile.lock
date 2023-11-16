@@ -133,6 +133,8 @@ GEM
     jekyll-optional-front-matter (0.3.2)
       jekyll (>= 3.0, < 5.0)
     jekyll-paginate (1.1.0)
+    jekyll-pdf-embed (1.1.3)
+      jekyll
     jekyll-readme-index (0.3.0)
       jekyll (>= 3.0, < 5.0)
     jekyll-redirect-from (0.16.0)
@@ -263,6 +265,7 @@ DEPENDENCIES
   hawkins
   jekyll (= 3.9.3)
   jekyll-feed
+  jekyll-pdf-embed
   jekyll-remote-theme
   jekyll-sitemap
   liquid (= 4.0.4)

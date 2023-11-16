@@ -29,6 +29,7 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'hawkins'
   gem "jekyll-remote-theme"
+  gem "jekyll-pdf-embed"
 end
 
 gem "webrick", "~> 1.8"
