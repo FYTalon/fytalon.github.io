@@ -25,8 +25,6 @@ data:
 </div>
 </section>
 
-​        
-
 <div class="columns is-centered has-text-centered">
     <div class="column is-four-fifths">
         <h2>Abstract</h2>
@@ -50,9 +48,9 @@ The input of PIE-NeRF is the same as other NeRF-based frameworks, which consists
 
 
 
-## Material Versatility
+## Experiments
 
-We show the versatility of our approach across a wide range of materials, including elastic entities, plastic metals, non-Newtonian fluids, and granular materials.
+We show 
 
 <br>
 <div class="columns is-centered">
