@@ -7,11 +7,10 @@ authors:
     <a href="https://fytalon.github.io/">Yutao Feng</a><sup>1</sup>, <a href="https://shayito.github.io/">Yintong Shang</a><sup>1</sup>, <a href="https://xuan-li.github.io/">Xuan Li</a><sup>2</sup>, <a href="http://tianjiashao.com/">Tianjia Shao</a><sup>3</sup>, <a href="https://www.math.ucla.edu/~cffjiang/">Chenfanfu Jiang</a><sup>2</sup>, <a href="https://yangzzzy.github.io/">Yin Yang</a><sup>1</sup>
 affiliations:
     University of Utah<sup>1</sup>, University of California, Los Angeles<sup>2</sup>, Zhejiang University<sup>3</sup>
-paper: 
+paper: https://fytalon.github.io/pienerf/
 video:  https://fytalon.github.io/pienerf/
 code: https://fytalon.github.io/pienerf/
 data: 
-arxiv: https://fytalon.github.io/pienerf/
 ---
 
 
@@ -39,11 +38,6 @@ We show that physics-based simulations can be seamlessly integrated with NeRF to
 
 
 
-```
-<video id="teaser" autoplay muted loop playsinline height="100%">
-<source src="./static/videos/teaser.mp4" type="video/mp4">
-</video>
-```
 
 ---
 
@@ -52,6 +46,37 @@ We show that physics-based simulations can be seamlessly integrated with NeRF to
 
 ![](/pienerf/static/image/pipeline.png)
 The input of PIE-NeRF is the same as other NeRF-based frameworks, which consists of a collection of images of a static scene. An adaptive Poisson disk sampling is followed to query the 3D geometry of the model, which are sparsified into n Q-GMLS kernels. Integrator points are placed over the model, including centers of Q-GMLS kernels (i.e., kernel IPs). Discretization at kernels and numerical integration at IPs enable efficient synthesis of novel and physics-based elastodynamic motions. The quadratic warping scheme helps to better retrieve the color/texture of a deformed spatial position to render the final result.
+
+
+
+
+## Material Versatility
+
+We show the versatility of our approach across a wide range of materials, including elastic entities, plastic metals, non-Newtonian fluids, and granular materials.
+
+<br>
+<div class="columns is-centered">
+<div class="column">
+<div class="content">
+<h4 class="title is-size-5" style="text-align: center;">Elastic Entity</h4>
+<video id="dollyzoom" autoplay="" controls="" muted="" loop="" playsinline="" height="100%">
+<source src="./static/video/arapnoui.mp4" type="video/mp4">
+</video>
+</div>
+</div>
+<div class="column">
+<div class="content">
+<h4 class="title is-size-5" style="text-align: center;">Plastic Metal</h4>
+<video id="dollyzoom" autoplay="" controls="" muted="" loop="" playsinline="" height="100%">
+<source src="./static/video/arapnoui.mp4" type="video/mp4">
+</video>
+</div>
+</div>
+</div>
+
+
+
+
 
 
 
