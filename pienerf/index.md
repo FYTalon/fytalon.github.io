@@ -4,15 +4,29 @@ permalink: /pienerf/
 
 title: "PIE-NeRF🍕: Physics-based Interactive Elastodynamics with NeRF"
 authors:
-    Yutao Feng, Yintong Shang, Xuan Li, Tianjia Shao, Chenfanfu Jiang, Yin Yang 
+    <a href="https://fytalon.github.io/">Yutao Feng</a><sup>1</sup>, <a href="https://shayito.github.io/">Yintong Shang</a><sup>1</sup>, <a href="https://xuan-li.github.io/">Xuan Li</a><sup>2</sup>, <a href="http://tianjiashao.com/">Tianjia Shao</a><sup>3</sup>, <a href="https://www.math.ucla.edu/~cffjiang/">Chenfanfu Jiang</a><sup>2</sup>, <a href="https://yangzzzy.github.io/">Yin Yang</a><sup>1</sup>
 affiliations:
-    University of Utah, University of California, Los Angeles, Zhejiang University
+    University of Utah<sup>1</sup>, University of California<sup>2</sup>, Los Angeles, Zhejiang University<sup>3</sup>
 paper: 
 video:  https://fytalon.github.io/pienerf/
 code: https://fytalon.github.io/pienerf/
 data: 
 arxiv: https://fytalon.github.io/pienerf/
 ---
+
+
+<section class="hero teaser">
+<div class="container is-max-desktop">
+<div class="hero-body">
+<img src="./static/image/teaser.png" class="interpolation-image">
+<h2 class="subtitle has-text-centered">
+<span class="dnerf">Pie-Nerf</span>🍕 is an efficient and versatile pipeline that synthesizes physics-based novel motions of complex NeRF models interactively. 
+</h2>
+</div>
+</div>
+</section>
+
+​        
 
 <div class="columns is-centered has-text-centered">
     <div class="column is-four-fifths">
@@ -24,20 +38,24 @@ We show that physics-based simulations can be seamlessly integrated with NeRF to
 </div>
 
 
+
+```
+<video id="teaser" autoplay muted loop playsinline height="100%">
+<source src="./static/videos/teaser.mp4" type="video/mp4">
+</video>
+```
+
 ---
 
 
 ## Pipeline
 
 ![](/pienerf/static/image/pipeline.png)
+*The input of PIE-NeRF is the same as other NeRF-based frameworks, which consists of a collection of images of a static scene. An adaptive Poisson disk sampling is followed to query the 3D geometry of the model, which are sparsified into n Q-GMLS kernels. Integrator points are placed over the model, including centers of Q-GMLS kernels (i.e., kernel IPs). Discretization at kernels and numerical integration at IPs enable efficient synthesis of novel and physics-based elastodynamic motions. The quadratic warping scheme helps to better retrieve the color/texture of a deformed spatial position to render the final result.
 
 
 
-*The input of PIE-NeRF is the same as other NeRF-based frameworks, which consists of a collection of images of a static scene. An adaptive Poisson disk sampling is followed to query the 3D geometry of the model, which are sparsified into $n$ Q-GMLS kernels. Integrator points are placed over the model, including centers of Q-GMLS kernels (i.e., kernel IPs). Discretization at kernels and numerical integration at IPs enable efficient synthesis of novel and physics-based elastodynamic motions. The quadratic warping scheme helps to better retrieve the color/texture of a deformed spatial position to render the final result.
 
-
-
-## Significance
 
 
 ## Citation
