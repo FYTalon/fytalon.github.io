@@ -4,9 +4,9 @@ permalink: /pienerf/
 
 title: "PIE-NeRF🍕: Physics-based Interactive Elastodynamics with NeRF"
 authors:
-    <a href="https://fytalon.github.io/">Yutao Feng</a><sup>1</sup>, <a href="https://shayito.github.io/">Yintong Shang</a><sup>1</sup>, <a href="https://xuan-li.github.io/">Xuan Li</a><sup>2</sup>, <a href="http://tianjiashao.com/">Tianjia Shao</a><sup>3</sup>, <a href="https://www.math.ucla.edu/~cffjiang/">Chenfanfu Jiang</a><sup>2</sup>, <a href="https://yangzzzy.github.io/">Yin Yang</a><sup>1</sup>
+    <a href="https://fytalon.github.io/">Yutao Feng</a><sup>1,2</sup>, <a href="https://shayito.github.io/">Yintong Shang</a><sup>1</sup>, <a href="https://xuan-li.github.io/">Xuan Li</a><sup>3</sup>, <a href="http://tianjiashao.com/">Tianjia Shao</a><sup>2</sup>, <a href="https://www.math.ucla.edu/~cffjiang/">Chenfanfu Jiang</a><sup>3</sup>, <a href="https://yangzzzy.github.io/">Yin Yang</a><sup>1</sup>
 affiliations:
-    University of Utah<sup>1</sup>, University of California, Los Angeles<sup>2</sup>, Zhejiang University<sup>3</sup>
+    University of Utah<sup>1</sup>, Zhejiang University<sup>2</sup>, University of California, Los Angeles<sup>3</sup>
 paper: https://fytalon.github.io/pienerf/
 video:  https://fytalon.github.io/pienerf/
 code: https://fytalon.github.io/pienerf/
@@ -47,24 +47,23 @@ The input of PIE-NeRF is the same as other NeRF-based frameworks, which consists
 
 
 
+## Interactive showcase
 
-## Experiments
 
-We show 
+We interact with all types of objects and generat physically realistic dynamic motions.
 
-<br>
 <div class="columns is-centered">
 <div class="column">
 <div class="content">
-<h4 class="title is-size-5" style="text-align: center;">Elastic Entity</h4>
+<h4 class="title is-size-5" style="text-align: center;">Dragging excavator </h4>
 <video id="dollyzoom" autoplay="" controls="" muted="" loop="" playsinline="" height="100%">
-<source src="./static/video/arapnoui.mp4" type="video/mp4">
+<source src="./static/video/excavator.mp4" type="video/mp4">
 </video>
 </div>
 </div>
 <div class="column">
 <div class="content">
-<h4 class="title is-size-5" style="text-align: center;">Plastic Metal</h4>
+<h4 class="title is-size-5" style="text-align: center;">pac tree</h4>
 <video id="dollyzoom" autoplay="" controls="" muted="" loop="" playsinline="" height="100%">
 <source src="./static/video/arapnoui.mp4" type="video/mp4">
 </video>
