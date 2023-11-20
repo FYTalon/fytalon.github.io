@@ -63,9 +63,9 @@ We interact with all types of objects and generat physically realistic dynamic m
 </div>
 <div class="column">
 <div class="content">
-<h4 class="title is-size-5" style="text-align: center;">pac tree</h4>
+<h4 class="title is-size-5" style="text-align: center;">Dragging ficus tree</h4>
 <video id="dollyzoom" autoplay="" controls="" muted="" loop="" playsinline="" height="100%">
-<source src="./static/video/arapnoui.mp4" type="video/mp4">
+<source src="./static/video/ficus.mp4" type="video/mp4">
 </video>
 </div>
 </div>
