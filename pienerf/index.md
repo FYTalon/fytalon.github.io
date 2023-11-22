@@ -57,7 +57,7 @@ We interact with all types of objects and generat physically realistic dynamic m
 <div class="content">
 <h4 class="title is-size-5" style="text-align: center;">Dragging excavator </h4>
 <video id="dollyzoom" autoplay="" controls="" muted="" loop="" playsinline="" height="100%">
-<source src="./static/video/excavator.mp4" type="video/mp4">
+<source src="./static/video/excavator_1.mp4" type="video/mp4">
 </video>
 </div>
 </div>
