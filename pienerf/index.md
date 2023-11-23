@@ -7,7 +7,7 @@ authors:
     <a href="https://fytalon.github.io/">Yutao Feng</a><sup>1,2</sup>, <a href="https://shayito.github.io/">Yintong Shang</a><sup>1</sup>, <a href="https://xuan-li.github.io/">Xuan Li</a><sup>3</sup>, <a href="http://tianjiashao.com/">Tianjia Shao</a><sup>2</sup>, <a href="https://www.math.ucla.edu/~cffjiang/">Chenfanfu Jiang</a><sup>3</sup>, <a href="https://yangzzzy.github.io/">Yin Yang</a><sup>1</sup>
 affiliations:
     University of Utah<sup>1</sup>, Zhejiang University<sup>2</sup>, University of California, Los Angeles<sup>3</sup>
-paper: https://fytalon.github.io/pienerf/
+paper: https://arxiv.org/abs/2311.13099
 video:  https://fytalon.github.io/pienerf/
 code: https://fytalon.github.io/pienerf/
 data: 
@@ -82,6 +82,12 @@ We interact with all types of objects and generat physically realistic dynamic m
 
 ## Citation
 ```
-@article{
+@misc{feng2023pienerf,
+      title={PIE-NeRF: Physics-based Interactive Elastodynamics with NeRF}, 
+      author={Yutao Feng and Yintong Shang and Xuan Li and Tianjia Shao and Chenfanfu Jiang and Yin Yang},
+      year={2023},
+      eprint={2311.13099},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ```
