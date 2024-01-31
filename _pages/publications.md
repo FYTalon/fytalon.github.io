@@ -45,9 +45,9 @@ author_profile: true
             <p> <a class="publication-journal">Arxiv.</a>  2024.</p>
             <p>
                   
-                  <strong><a href="https://arxiv.org/abs/2401.16663" target="_blank">[Paper]</a></strong>      
+                  <strong><a href="https://arxiv.org/abs/2401.15318" target="_blank">[Paper]</a></strong>      
                   
-                  <strong><a href="https://yingjiang96.github.io/VR-GS/" target="_blank">[Project Page]</a></strong>
+                  <strong><a href="https://amysteriouscat.github.io/GaussianSplashing/" target="_blank">[Project Page]</a></strong>
                   
                   
             </p>
