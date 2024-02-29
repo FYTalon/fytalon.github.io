@@ -18,6 +18,95 @@ author_profile: true
 <div class="row">
       <div class="col-sm-2 align-self-center">
         <div class="card border-0">
+          
+        </div>
+      </div>
+      <div class="col-sm-10 align-self-center">
+        <div class="card border-0"></div>
+        <table>
+          <tr>
+          <td style="vertical-align:middle" width="35%">
+            <img src='../images/pienerf23.png' width="100%">
+          </td>
+          <td style="vertical-align:middle">
+            <h3 class="publication-title">
+                  <a class="text-dark" >PIE-NeRF: Physics-based Interactive Elastodynamics with NeRF</a>
+            </h3> 
+            
+            <p class="publication-author">
+              
+              
+              <strong>Yutao Feng*</strong>, Yintong Shang*, Xuan Li, Tianjia Shao, Chenfanfu Jiang, and Yin Yang.
+            </p>
+
+            <p class="publication-author-comment">
+              *Equal contributions.
+            </p>
+             
+            <p> <a class="publication-journal">Conference on Computer Vision and Pattern Recognition (CVPR).</a>  2024.</p>
+            <p>
+                  
+                  <strong><a href="https://arxiv.org/abs/2311.13099" target="_blank">[Paper]</a></strong>
+                                    
+                  <strong><a href="https://fytalon.github.io/pienerf/" target="_blank">[Project Page]</a></strong>
+                  
+            </p>
+            
+            </td>
+            </tr>
+            
+        </table>
+      </div>
+</div>
+
+<div class="row">
+      <div class="col-sm-2 align-self-center">
+        <div class="card border-0">
+        </div>
+      </div>
+      <div class="col-sm-10 align-self-center">
+        <div class="card border-0"></div>
+        <table>
+          <tr>
+          <td style="vertical-align:middle" width="35%">
+            <img src='../images/physguassian23.png' width="100%">
+          </td>
+          <td style="vertical-align:middle">
+            <h3 class="publication-title">
+                  <a class="text-dark" >PhysGaussian: Physics-Integrated 3D Gaussians for Generative Dynamics</a>
+              </h3> 
+            
+            <p class="publication-author">
+              
+              
+              Tianyi Xie*, Zeshun Zong*, Yuxing Qiu*, Xuan Li*, <strong>Yutao Feng</strong>, Yin Yang, and Chenfanfu Jiang.
+            </p>
+             
+            <p class="publication-author-comment">
+              *Equal contributions.
+            </p>
+            
+            <p> <a class="publication-journal">Conference on Computer Vision and Pattern Recognition (CVPR).</a>  2024.</p>
+            <p>
+                  
+                  <strong><a href="https://arxiv.org/pdf/2311.12198.pdf" target="_blank">[Paper]</a></strong>
+
+
+                  <strong><a href="https://xpandora.github.io/PhysGaussian/" target="_blank">[Project Page]</a></strong>
+                  
+                  
+            </p>
+            
+            </td>
+            </tr>
+            
+      </table>
+      </div>
+</div>
+
+<div class="row">
+      <div class="col-sm-2 align-self-center">
+        <div class="card border-0">
         </div>
       </div>
       <div class="col-sm-10 align-self-center">
@@ -100,94 +189,5 @@ author_profile: true
             </tr>
           
         </table>
-      </div>
-</div>
-
-<div class="row">
-      <div class="col-sm-2 align-self-center">
-        <div class="card border-0">
-          
-        </div>
-      </div>
-      <div class="col-sm-10 align-self-center">
-        <div class="card border-0"></div>
-        <table>
-          <tr>
-          <td style="vertical-align:middle" width="35%">
-            <img src='../images/pienerf23.png' width="100%">
-          </td>
-          <td style="vertical-align:middle">
-            <h3 class="publication-title">
-                  <a class="text-dark" >PIE-NeRF: Physics-based Interactive Elastodynamics with NeRF</a>
-            </h3> 
-            
-            <p class="publication-author">
-              
-              
-              <strong>Yutao Feng*</strong>, Yintong Shang*, Xuan Li, Tianjia Shao, Chenfanfu Jiang, and Yin Yang.
-            </p>
-
-            <p class="publication-author-comment">
-              *Equal contributions.
-            </p>
-             
-            <p> <a class="publication-journal">Arxiv.</a>  2023.</p>
-            <p>
-                  
-                  <strong><a href="https://arxiv.org/abs/2311.13099" target="_blank">[Paper]</a></strong>
-                                    
-                  <strong><a href="https://fytalon.github.io/pienerf/" target="_blank">[Project Page]</a></strong>
-                  
-            </p>
-            
-            </td>
-            </tr>
-            
-        </table>
-      </div>
-</div>
-
-<div class="row">
-      <div class="col-sm-2 align-self-center">
-        <div class="card border-0">
-        </div>
-      </div>
-      <div class="col-sm-10 align-self-center">
-        <div class="card border-0"></div>
-        <table>
-          <tr>
-          <td style="vertical-align:middle" width="35%">
-            <img src='../images/physguassian23.png' width="100%">
-          </td>
-          <td style="vertical-align:middle">
-            <h3 class="publication-title">
-                  <a class="text-dark" >PhysGaussian: Physics-Integrated 3D Gaussians for Generative Dynamics</a>
-              </h3> 
-            
-            <p class="publication-author">
-              
-              
-              Tianyi Xie*, Zeshun Zong*, Yuxing Qiu*, Xuan Li*, <strong>Yutao Feng</strong>, Yin Yang, and Chenfanfu Jiang.
-            </p>
-             
-            <p class="publication-author-comment">
-              *Equal contributions.
-            </p>
-            
-            <p> <a class="publication-journal">Arxiv.</a>  2023.</p>
-            <p>
-                  
-                  <strong><a href="https://arxiv.org/pdf/2311.12198.pdf" target="_blank">[Paper]</a></strong>
-
-
-                  <strong><a href="https://xpandora.github.io/PhysGaussian/" target="_blank">[Project Page]</a></strong>
-                  
-                  
-            </p>
-            
-            </td>
-            </tr>
-            
-      </table>
       </div>
 </div>
