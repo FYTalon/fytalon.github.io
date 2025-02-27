@@ -131,7 +131,7 @@ author_profile: true
               *Equal contributions.
             </p>
             
-            <p> <a class="publication-journal">Arxiv.</a>  2024.</p>
+            <p> <a class="publication-journal">Conference on Computer Vision and Pattern Recognition (CVPR).</a>  2025.</p>
             <p>
                   
                   <strong><a href="https://arxiv.org/abs/2401.15318" target="_blank">[Paper]</a></strong>      
@@ -175,7 +175,7 @@ author_profile: true
               *Equal contributions.
             </p>
             
-            <p> <a class="publication-journal">Arxiv.</a>  2024.</p>
+            <p> <a class="publication-journal">SIGGRAPH</a>  2024.</p>
             <p>
                   
                   <strong><a href="https://arxiv.org/abs/2401.16663" target="_blank">[Paper]</a></strong>      
